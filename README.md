@@ -34,7 +34,7 @@
   </a>&nbsp;
   <br/><br/>
 
-  <img src="https://komarev.com/ghpvc/?username=OmSardar&label=Profile+Views&color=1f6feb&style=flat-square" alt="Profile Views"/>
+  <img src="https://komarev.com/ghpvc/?username=OmSardar&base=1067&label=Profile+Views&color=1f6feb&style=flat-square" alt="Profile Views"/>
   &nbsp;
   <img src="https://img.shields.io/github/followers/OmSardar?label=Followers&style=flat-square&color=1f6feb&labelColor=0d1117" alt="GitHub Followers"/>
 
