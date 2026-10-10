@@ -413,48 +413,36 @@ An early project I built as my final-year BCA minor project. The codebase includ
 
 <h3 align="center" style="font-family: Georgia, serif;">Key Areas of Interest</h3>
 
-<table>
-<tr>
-<td width="33%" valign="top">
-
-**Scalability & Performance**
-
-&#9656; Horizontal scaling strategies
-
-&#9656; Caching with Redis
-
-&#9656; Database optimization
-
-&#9656; Load balancing
-
-</td>
-<td width="33%" valign="top">
-
-**Security & Reliability**
-
-&#9656; Authentication (JWT, OAuth)
-
-&#9656; Input validation and sanitization
-
-&#9656; Rate limiting and CSRF protection
-
-&#9656; Error handling patterns
-
-</td>
-<td width="33%" valign="top">
-
-**Architecture & Design**
-
-&#9656; API design (REST)
-
-&#9656; Distributed systems concepts
-
-&#9656; Event-driven patterns
-
-&#9656; CI/CD and observability
-
-</td>
-</tr>
+<table width="100%">
+  <tr>
+    <td width="33%" valign="top">
+      <strong>📈 Scalability &amp; Performance</strong>
+      <ul>
+        <li>Horizontal scaling strategies</li>
+        <li>Caching with Redis</li>
+        <li>Database optimization</li>
+        <li>Load balancing</li>
+      </ul>
+    </td>
+    <td width="34%" valign="top">
+      <strong>🛡️ Security &amp; Reliability</strong>
+      <ul>
+        <li>Authentication (JWT, OAuth)</li>
+        <li>Input validation and sanitization</li>
+        <li>Rate limiting and CSRF protection</li>
+        <li>Error handling patterns</li>
+      </ul>
+    </td>
+    <td width="33%" valign="top">
+      <strong>🏗️ Architecture &amp; Design</strong>
+      <ul>
+        <li>API design (REST)</li>
+        <li>Distributed systems concepts</li>
+        <li>Event-driven patterns</li>
+        <li>CI/CD and observability</li>
+      </ul>
+    </td>
+  </tr>
 </table>
 
 <br/>
@@ -473,18 +461,28 @@ An early project I built as my final-year BCA minor project. The codebase includ
 
 <h3 align="center" style="font-family: Georgia, serif;">Development Principles</h3>
 
-```
- 01  Understand the problem before writing code
- 02  Design before implementation
- 03  Write maintainable, readable code
- 04  Validate edge cases and failures
- 05  Secure the application at every layer
- 06  Test important paths thoroughly
- 07  Measure before optimizing
- 08  Document decisions and trade-offs
- 09  Automate repetitive work
- 10  Keep learning — always
-```
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <ol>
+        <li>Understand the problem before writing code</li>
+        <li>Design before implementation</li>
+        <li>Write maintainable, readable code</li>
+        <li>Validate edge cases and failures</li>
+        <li>Secure the application at every layer</li>
+      </ol>
+    </td>
+    <td width="50%" valign="top">
+      <ol start="6">
+        <li>Test important paths thoroughly</li>
+        <li>Measure before optimizing</li>
+        <li>Document decisions and trade-offs</li>
+        <li>Automate repetitive work</li>
+        <li>Keep learning — always</li>
+      </ol>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -494,23 +492,62 @@ An early project I built as my final-year BCA minor project. The codebase includ
 
 <h2 align="center" style="font-family: Georgia, serif;" id="roadmap">Roadmap</h2>
 
-| Foundation                    | Current Focus               | Exploring                  | Next                         |
-| :---------------------------- | :-------------------------- | :------------------------- | :--------------------------- |
-| Full-Stack Development (MERN) | Java and Spring Boot        | Microservices Architecture | Production-Scale Systems     |
-| REST API Design               | Advanced DSA                | Distributed Systems        | Event-Driven Architecture    |
-| Authentication (JWT, OAuth)   | System Design Fundamentals  | Kafka and Message Queues   | Agentic AI                   |
-| Git and GitHub                | AWS and Cloud Services      | Redis (Advanced Patterns)  | Open Source Contributions    |
-| MongoDB and SQL Databases     | Docker and Containerization | AI/ML and LLM Applications | Advanced Backend Engineering |
-| DSA Fundamentals              | CI/CD Pipelines             | Cloud Architecture         | Data Engineering             |
-| Responsive Web Design         | Cyber Security Concepts     | Data Engineering Pipelines | System Reliability           |
-
-<br/>
+<table width="100%">
+  <tr>
+    <td width="25%" valign="top">
+      <strong>🧱 FOUNDATION</strong>
+      <ul>
+        <li>Full-stack development (MERN)</li>
+        <li>REST API design</li>
+        <li>Authentication (JWT, OAuth)</li>
+        <li>Git and GitHub</li>
+        <li>MongoDB and SQL databases</li>
+        <li>DSA fundamentals</li>
+        <li>Responsive web design</li>
+      </ul>
+    </td>
+    <td width="25%" valign="top">
+      <strong>⚡ CURRENT FOCUS</strong>
+      <ul>
+        <li>Java and Spring Boot</li>
+        <li>Advanced DSA</li>
+        <li>System design fundamentals</li>
+        <li>AWS and cloud services</li>
+        <li>Docker and containers</li>
+        <li>CI/CD pipelines</li>
+        <li>Cybersecurity concepts</li>
+      </ul>
+    </td>
+    <td width="25%" valign="top">
+      <strong>🧭 EXPLORING</strong>
+      <ul>
+        <li>Microservices architecture</li>
+        <li>Distributed systems</li>
+        <li>Kafka and message queues</li>
+        <li>Advanced Redis patterns</li>
+        <li>AI/ML and LLM applications</li>
+        <li>Cloud architecture</li>
+        <li>Data engineering pipelines</li>
+      </ul>
+    </td>
+    <td width="25%" valign="top">
+      <strong>➡️ NEXT</strong>
+      <ul>
+        <li>Production-scale systems</li>
+        <li>Event-driven architecture</li>
+        <li>Agentic AI</li>
+        <li>Open-source contributions</li>
+        <li>Advanced backend engineering</li>
+        <li>Data engineering</li>
+        <li>System reliability</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
-  <samp>Foundation = Built with &nbsp;&#8226;&nbsp; Current = Actively learning &nbsp;&#8226;&nbsp; Exploring = Starting to explore &nbsp;&#8226;&nbsp; Next = Future goals</samp>
+  <sub><strong>Foundation</strong> · Built with &nbsp;&nbsp; <strong>Current focus</strong> · Actively learning &nbsp;&nbsp; <strong>Exploring</strong> · Starting to explore &nbsp;&nbsp; <strong>Next</strong> · Future goals</sub>
 </p>
-
----
 
 ---
 
@@ -520,31 +557,27 @@ An early project I built as my final-year BCA minor project. The codebase includ
 
 <h2 align="center" style="font-family: Georgia, serif;" id="open-to">Open To</h2>
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-&#9656; Internships and entry-level opportunities
-
-&#9656; Full-time Software Engineering roles
-
-&#9656; Full-Stack Development positions
-
-&#9656; Backend Development roles
-
-</td>
-<td width="50%" valign="top">
-
-&#9656; Freelance and technical projects
-
-&#9656; Open-source collaboration
-
-&#9656; Technical writing and knowledge sharing
-
-&#9656; Interesting project collaborations
-
-</td>
-</tr>
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <strong>💼 CAREER OPPORTUNITIES</strong>
+      <ul>
+        <li>Internships and entry-level opportunities</li>
+        <li>Full-time software engineering roles</li>
+        <li>Full-stack development positions</li>
+        <li>Backend development roles</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <strong>🤝 COLLABORATION</strong>
+      <ul>
+        <li>Freelance and technical projects</li>
+        <li>Open-source collaboration</li>
+        <li>Technical writing and knowledge sharing</li>
+        <li>Interesting project collaborations</li>
+      </ul>
+    </td>
+  </tr>
 </table>
 
 ---
