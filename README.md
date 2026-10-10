@@ -6,12 +6,10 @@
 <div align="center">
 
 <img
-    src="./assets/oms.gif"
+    src="./assets/banner.svg"
     width="100%"
-    alt="Om Sardar — Full Stack Developer"
+    alt="Om Sardar — Software Engineer focused on Java backend, Spring Boot, and full-stack development"
   />
-
-  <h1 align="center" style="font-family: Georgia, serif;">Om Sardar</h1>
 
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=500&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=540&height=30&lines=Full-Stack+Developer+%7C+Backend+Engineer;MERN+Stack+%7C+Java+%7C+Spring+Boot;System+Design+%7C+DSA+%7C+Cloud;Building+Scalable+Software" alt="Typing SVG"/>
@@ -68,7 +66,7 @@
 <div align="center">
 
 <img
-    src="./assets/about.gif"
+    src="./assets/about.svg"
     width="100%"
     alt="Om Sardar developer profile"
   />
@@ -122,7 +120,7 @@ AuctionX began as my final-year BCA minor project.
 <div align="center">
 
 <img
-    src="./assets/focus.gif"
+    src="./assets/focus.svg"
     width="100%"
     alt="Current development focus"
   />
@@ -134,7 +132,7 @@ AuctionX began as my final-year BCA minor project.
 <div align="center">
 
 <img
-    src="./assets/goals.gif"
+    src="./assets/goals.svg"
     width="100%"
     alt="Om Sardar — Goals and Engineering Vision"
   />
@@ -407,7 +405,7 @@ An early project I built as my final-year BCA minor project. The codebase includ
 
 <div align="center">
   <img
-    src="./assets/system-architecture.gif"
+    src="./assets/system-architecture.svg"
     width="100%"
     alt="Conceptual architecture reference showing a browser client, edge routing, API services, data stores, and cross-cutting engineering concerns"
   />
@@ -465,7 +463,7 @@ An early project I built as my final-year BCA minor project. The codebase includ
 
 <div align="center">
   <img
-    src="./assets/engineering-loop.gif"
+    src="./assets/engineering-loop.svg"
     width="100%"
     alt="Engineering learning loop — Learn, Plan, Build, Test, Ship, and Reflect"
   />

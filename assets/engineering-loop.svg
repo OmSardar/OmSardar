@@ -7,17 +7,28 @@
     .packet { animation: none; }
     @media (prefers-reduced-motion: reduce) { .flow { animation: none; } .packet { display: none; } }
   </style>
+  <defs>
+    <linearGradient id="movingGradient" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse" spreadMethod="repeat">
+      <stop offset="0" stop-color="#58a6ff"/><stop offset=".24" stop-color="#39c5cf"/><stop offset=".5" stop-color="#bc8cff"/><stop offset=".76" stop-color="#ff7b9c"/><stop offset="1" stop-color="#58a6ff"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 0;800 0" dur="16s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="auraBlue"><stop offset="0" stop-color="#1f6feb" stop-opacity=".22"/><stop offset="1" stop-color="#1f6feb" stop-opacity="0"/></radialGradient>
+    <radialGradient id="auraPink"><stop offset="0" stop-color="#d946ef" stop-opacity=".14"/><stop offset="1" stop-color="#d946ef" stop-opacity="0"/></radialGradient>
+    <filter id="textGlow" x="-35%" y="-70%" width="170%" height="240%" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="softGlow"/><feComponentTransfer in="softGlow" result="glow"><feFuncA type="linear" slope=".62"/></feComponentTransfer><feMerge><feMergeNode in="glow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
   <title id="title">Engineering learning loop</title>
   <desc id="desc">A practical cycle of learning, planning, building, testing, shipping, and reflecting.</desc>
-  <rect x="1" y="1" width="1598" height="328" rx="18" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
-  <text x="48" y="58" fill="#e6edf3" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">A practical engineering loop<animate attributeName="fill" values="#e6edf3;#58a6ff;#bc8cff;#e6edf3" dur="6s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 0;0 0" keyTimes="0;.18;1" dur="5s" begin="0s" repeatCount="indefinite"/></text>
+  <rect x="1" y="1" width="1598" height="328" rx="18" fill="#0d1117" stroke="#30363d" stroke-width="2"/><circle cx="220" cy="82" r="280" fill="url(#auraBlue)"><animate attributeName="cx" values="220;500;220" dur="22s" repeatCount="indefinite"/></circle><circle cx="1380" cy="247" r="300" fill="url(#auraPink)"><animate attributeName="cx" values="1380;1100;1380" dur="26s" repeatCount="indefinite"/></circle>
+  <text x="48" y="58" fill="url(#movingGradient)" filter="url(#textGlow)" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">A practical engineering loop<animateTransform attributeName="transform" type="translate" values="0 0;0 -2.5;0 0" keyTimes="0;.5;1" dur="6s" begin="0s" repeatCount="indefinite"/></text>
   <text x="1552" y="56" text-anchor="end" fill="#8b949e" font-family="Arial, Helvetica, sans-serif" font-size="16">A repeatable way to learn and improve</text>
   <g font-family="Arial, Helvetica, sans-serif">
     <g transform="translate(40 112)">
       <rect width="220" height="132" rx="12" fill="#161b22" stroke="#30363d"/>
       <rect width="220" height="4" rx="2" fill="#58a6ff"/>
       <text x="20" y="32" fill="#58a6ff" font-size="14" font-weight="700">01</text>
-      <text x="20" y="74" fill="#e6edf3" font-size="22" font-weight="700">Learn<animate attributeName="fill" values="#e6edf3;#58a6ff;#e6edf3" dur="5s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 0;0 0" keyTimes="0;.18;1" dur="5s" begin="0s" repeatCount="indefinite"/></text>
+      <text x="20" y="74" fill="url(#movingGradient)" filter="url(#textGlow)" font-size="22" font-weight="700">Learn<animateTransform attributeName="transform" type="translate" values="0 0;0 -2.5;0 0" keyTimes="0;.5;1" dur="6s" begin="0s" repeatCount="indefinite"/></text>
       <text x="20" y="105" fill="#8b949e" font-size="15">Understand the problem</text>
     </g>
     <path d="M268 178h26" fill="none" stroke="#58a6ff" stroke-width="2" class="flow"/>
@@ -27,7 +38,7 @@
       <rect width="220" height="132" rx="12" fill="#161b22" stroke="#30363d"/>
       <rect width="220" height="4" rx="2" fill="#39c5cf"/>
       <text x="20" y="32" fill="#58a6ff" font-size="14" font-weight="700">02</text>
-      <text x="20" y="74" fill="#e6edf3" font-size="22" font-weight="700">Plan<animate attributeName="fill" values="#e6edf3;#39c5cf;#e6edf3" dur="5s" begin=".7s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 0;0 0" keyTimes="0;.18;1" dur="5s" begin=".7s" repeatCount="indefinite"/></text>
+      <text x="20" y="74" fill="url(#movingGradient)" filter="url(#textGlow)" font-size="22" font-weight="700">Plan<animateTransform attributeName="transform" type="translate" values="0 0;0 -2.5;0 0" keyTimes="0;.5;1" dur="6s" begin=".7s" repeatCount="indefinite"/></text>
       <text x="20" y="105" fill="#8b949e" font-size="15">Design before coding</text>
     </g>
     <path d="M528 178h26" fill="none" stroke="#39c5cf" stroke-width="2" class="flow f2"/>
@@ -37,7 +48,7 @@
       <rect width="220" height="132" rx="12" fill="#161b22" stroke="#30363d"/>
       <rect width="220" height="4" rx="2" fill="#bc8cff"/>
       <text x="20" y="32" fill="#58a6ff" font-size="14" font-weight="700">03</text>
-      <text x="20" y="74" fill="#e6edf3" font-size="22" font-weight="700">Build<animate attributeName="fill" values="#e6edf3;#bc8cff;#e6edf3" dur="5s" begin="1.4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 0;0 0" keyTimes="0;.18;1" dur="5s" begin="1.4s" repeatCount="indefinite"/></text>
+      <text x="20" y="74" fill="url(#movingGradient)" filter="url(#textGlow)" font-size="22" font-weight="700">Build<animateTransform attributeName="transform" type="translate" values="0 0;0 -2.5;0 0" keyTimes="0;.5;1" dur="6s" begin="1.4s" repeatCount="indefinite"/></text>
       <text x="20" y="105" fill="#8b949e" font-size="15">Write clear, useful code</text>
     </g>
     <path d="M788 178h26" fill="none" stroke="#bc8cff" stroke-width="2" class="flow f3"/>
@@ -47,7 +58,7 @@
       <rect width="220" height="132" rx="12" fill="#161b22" stroke="#30363d"/>
       <rect width="220" height="4" rx="2" fill="#3fb950"/>
       <text x="20" y="32" fill="#58a6ff" font-size="14" font-weight="700">04</text>
-      <text x="20" y="74" fill="#e6edf3" font-size="22" font-weight="700">Test<animate attributeName="fill" values="#e6edf3;#3fb950;#e6edf3" dur="5s" begin="2.1s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 0;0 0" keyTimes="0;.18;1" dur="5s" begin="2.1s" repeatCount="indefinite"/></text>
+      <text x="20" y="74" fill="url(#movingGradient)" filter="url(#textGlow)" font-size="22" font-weight="700">Test<animateTransform attributeName="transform" type="translate" values="0 0;0 -2.5;0 0" keyTimes="0;.5;1" dur="6s" begin="2.1s" repeatCount="indefinite"/></text>
       <text x="20" y="105" fill="#8b949e" font-size="15">Check edge cases</text>
     </g>
     <path d="M1048 178h26" fill="none" stroke="#3fb950" stroke-width="2" class="flow f4"/>
@@ -57,7 +68,7 @@
       <rect width="220" height="132" rx="12" fill="#161b22" stroke="#30363d"/>
       <rect width="220" height="4" rx="2" fill="#f0883e"/>
       <text x="20" y="32" fill="#58a6ff" font-size="14" font-weight="700">05</text>
-      <text x="20" y="74" fill="#e6edf3" font-size="22" font-weight="700">Ship<animate attributeName="fill" values="#e6edf3;#f0883e;#e6edf3" dur="5s" begin="2.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 0;0 0" keyTimes="0;.18;1" dur="5s" begin="2.8s" repeatCount="indefinite"/></text>
+      <text x="20" y="74" fill="url(#movingGradient)" filter="url(#textGlow)" font-size="22" font-weight="700">Ship<animateTransform attributeName="transform" type="translate" values="0 0;0 -2.5;0 0" keyTimes="0;.5;1" dur="6s" begin="2.8s" repeatCount="indefinite"/></text>
       <text x="20" y="105" fill="#8b949e" font-size="15">Deliver and observe</text>
     </g>
     <path d="M1308 178h26" fill="none" stroke="#f0883e" stroke-width="2" class="flow f5"/>
@@ -67,7 +78,7 @@
       <rect width="220" height="132" rx="12" fill="#161b22" stroke="#30363d"/>
       <rect width="220" height="4" rx="2" fill="#ff7b72"/>
       <text x="20" y="32" fill="#58a6ff" font-size="14" font-weight="700">06</text>
-      <text x="20" y="74" fill="#e6edf3" font-size="22" font-weight="700">Reflect<animate attributeName="fill" values="#e6edf3;#ff7b72;#e6edf3" dur="5s" begin="3.5s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 0;0 0" keyTimes="0;.18;1" dur="5s" begin="3.5s" repeatCount="indefinite"/></text>
+      <text x="20" y="74" fill="url(#movingGradient)" filter="url(#textGlow)" font-size="22" font-weight="700">Reflect<animateTransform attributeName="transform" type="translate" values="0 0;0 -2.5;0 0" keyTimes="0;.5;1" dur="6s" begin="3.5s" repeatCount="indefinite"/></text>
       <text x="20" y="105" fill="#8b949e" font-size="15">Measure and improve</text>
     </g>
   </g>

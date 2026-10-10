@@ -5,38 +5,49 @@
     @keyframes breathe { 0%,100% { opacity: .4; transform: scale(.85); } 50% { opacity: 1; transform: scale(1.15); } }
     @media (prefers-reduced-motion: reduce) { .marker { animation: none; } .motion { display: none; } }
   </style>
+  <defs>
+    <linearGradient id="movingGradient" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse" spreadMethod="repeat">
+      <stop offset="0" stop-color="#58a6ff"/><stop offset=".24" stop-color="#39c5cf"/><stop offset=".5" stop-color="#bc8cff"/><stop offset=".76" stop-color="#ff7b9c"/><stop offset="1" stop-color="#58a6ff"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 0;800 0" dur="16s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="auraBlue"><stop offset="0" stop-color="#1f6feb" stop-opacity=".22"/><stop offset="1" stop-color="#1f6feb" stop-opacity="0"/></radialGradient>
+    <radialGradient id="auraPink"><stop offset="0" stop-color="#d946ef" stop-opacity=".14"/><stop offset="1" stop-color="#d946ef" stop-opacity="0"/></radialGradient>
+    <filter id="textGlow" x="-35%" y="-70%" width="170%" height="240%" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="softGlow"/><feComponentTransfer in="softGlow" result="glow"><feFuncA type="linear" slope=".62"/></feComponentTransfer><feMerge><feMergeNode in="glow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
   <title id="title">Engineering goals</title>
   <desc id="desc">Professional goals: grow as an engineer, build useful products, contribute to open source, and design reliable systems.</desc>
-  <rect x="1" y="1" width="1598" height="328" rx="18" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
-  <text x="48" y="60" fill="#e6edf3" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">Goals<animate attributeName="fill" values="#e6edf3;#58a6ff;#bc8cff;#e6edf3" dur="6s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 0;0 0" keyTimes="0;.18;1" dur="5s" begin="0s" repeatCount="indefinite"/></text>
+  <rect x="1" y="1" width="1598" height="328" rx="18" fill="#0d1117" stroke="#30363d" stroke-width="2"/><circle cx="220" cy="82" r="280" fill="url(#auraBlue)"><animate attributeName="cx" values="220;500;220" dur="22s" repeatCount="indefinite"/></circle><circle cx="1380" cy="247" r="300" fill="url(#auraPink)"><animate attributeName="cx" values="1380;1100;1380" dur="26s" repeatCount="indefinite"/></circle>
+  <text x="48" y="60" fill="url(#movingGradient)" filter="url(#textGlow)" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">Goals<animateTransform attributeName="transform" type="translate" values="0 0;0 -2.5;0 0" keyTimes="0;.5;1" dur="6s" begin="0s" repeatCount="indefinite"/></text>
   <text x="1552" y="58" text-anchor="end" fill="#8b949e" font-family="Arial, Helvetica, sans-serif" font-size="16">What I’m working toward</text>
   <line x1="48" y1="82" x2="1552" y2="82" stroke="#30363d"/>
   <g font-family="Arial, Helvetica, sans-serif">
     <g transform="translate(48 112)">
       <text x="0" y="15" fill="#58a6ff" font-size="15" font-weight="700" letter-spacing="1.3">01</text>
       <circle cx="350" cy="10" r="4" fill="#58a6ff" class="marker motion"><animate attributeName="r" values="3;6;3" dur="2.8s" repeatCount="indefinite"/><animate attributeName="opacity" values=".35;1;.35" dur="2.8s" repeatCount="indefinite"/></circle>
-      <text x="0" y="55" fill="#e6edf3" font-size="22" font-weight="700">Grow as an engineer<animate attributeName="fill" values="#e6edf3;#58a6ff;#e6edf3" dur="5s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 0;0 0" keyTimes="0;.18;1" dur="5s" begin="0s" repeatCount="indefinite"/></text>
+      <text x="0" y="55" fill="url(#movingGradient)" filter="url(#textGlow)" font-size="22" font-weight="700">Grow as an engineer<animateTransform attributeName="transform" type="translate" values="0 0;0 -2.5;0 0" keyTimes="0;.5;1" dur="6s" begin="0s" repeatCount="indefinite"/></text>
       <text x="0" y="88" fill="#8b949e" font-size="17"><tspan x="0">Build strong fundamentals</tspan><tspan x="0" dy="25">and keep learning.</tspan></text>
     </g>
     <line x1="420" y1="112" x2="420" y2="282" stroke="#30363d"/>
     <g transform="translate(440 112)">
       <text x="0" y="15" fill="#39c5cf" font-size="15" font-weight="700" letter-spacing="1.3">02</text>
       <circle cx="350" cy="10" r="4" fill="#39c5cf" class="marker motion m2"><animate attributeName="r" values="3;6;3" dur="2.8s" begin=".7s" repeatCount="indefinite"/><animate attributeName="opacity" values=".35;1;.35" dur="2.8s" begin=".7s" repeatCount="indefinite"/></circle>
-      <text x="0" y="55" fill="#e6edf3" font-size="22" font-weight="700">Build useful products<animate attributeName="fill" values="#e6edf3;#39c5cf;#e6edf3" dur="5s" begin=".8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 0;0 0" keyTimes="0;.18;1" dur="5s" begin=".8s" repeatCount="indefinite"/></text>
+      <text x="0" y="55" fill="url(#movingGradient)" filter="url(#textGlow)" font-size="22" font-weight="700">Build useful products<animateTransform attributeName="transform" type="translate" values="0 0;0 -2.5;0 0" keyTimes="0;.5;1" dur="6s" begin=".8s" repeatCount="indefinite"/></text>
       <text x="0" y="88" fill="#8b949e" font-size="17"><tspan x="0">Solve real problems with</tspan><tspan x="0" dy="25">thoughtful software.</tspan></text>
     </g>
     <line x1="812" y1="112" x2="812" y2="282" stroke="#30363d"/>
     <g transform="translate(832 112)">
       <text x="0" y="15" fill="#bc8cff" font-size="15" font-weight="700" letter-spacing="1.3">03</text>
       <circle cx="350" cy="10" r="4" fill="#bc8cff" class="marker motion m3"><animate attributeName="r" values="3;6;3" dur="2.8s" begin="1.4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".35;1;.35" dur="2.8s" begin="1.4s" repeatCount="indefinite"/></circle>
-      <text x="0" y="55" fill="#e6edf3" font-size="22" font-weight="700">Contribute to open source<animate attributeName="fill" values="#e6edf3;#bc8cff;#e6edf3" dur="5s" begin="1.6s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 0;0 0" keyTimes="0;.18;1" dur="5s" begin="1.6s" repeatCount="indefinite"/></text>
+      <text x="0" y="55" fill="url(#movingGradient)" filter="url(#textGlow)" font-size="22" font-weight="700">Contribute to open source<animateTransform attributeName="transform" type="translate" values="0 0;0 -2.5;0 0" keyTimes="0;.5;1" dur="6s" begin="1.6s" repeatCount="indefinite"/></text>
       <text x="0" y="88" fill="#8b949e" font-size="17"><tspan x="0">Learn with the community</tspan><tspan x="0" dy="25">and share useful work.</tspan></text>
     </g>
     <line x1="1204" y1="112" x2="1204" y2="282" stroke="#30363d"/>
     <g transform="translate(1224 112)">
       <text x="0" y="15" fill="#3fb950" font-size="15" font-weight="700" letter-spacing="1.3">04</text>
       <circle cx="350" cy="10" r="4" fill="#3fb950" class="marker motion m4"><animate attributeName="r" values="3;6;3" dur="2.8s" begin="2.1s" repeatCount="indefinite"/><animate attributeName="opacity" values=".35;1;.35" dur="2.8s" begin="2.1s" repeatCount="indefinite"/></circle>
-      <text x="0" y="55" fill="#e6edf3" font-size="22" font-weight="700">Design reliable systems<animate attributeName="fill" values="#e6edf3;#3fb950;#e6edf3" dur="5s" begin="2.4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 0;0 0" keyTimes="0;.18;1" dur="5s" begin="2.4s" repeatCount="indefinite"/></text>
+      <text x="0" y="55" fill="url(#movingGradient)" filter="url(#textGlow)" font-size="22" font-weight="700">Design reliable systems<animateTransform attributeName="transform" type="translate" values="0 0;0 -2.5;0 0" keyTimes="0;.5;1" dur="6s" begin="2.4s" repeatCount="indefinite"/></text>
       <text x="0" y="88" fill="#8b949e" font-size="17"><tspan x="0">Focus on quality, scale,</tspan><tspan x="0" dy="25">and maintainability.</tspan></text>
     </g>
   </g>

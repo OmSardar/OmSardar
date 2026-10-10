@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 420" role="img" aria-labelledby="title desc">
+  <title id="title">Om Sardar — Software Engineer</title>
+  <desc id="desc">Animated developer banner with a softly glowing, continuously moving multicolor name gradient.</desc>
+  <defs>
+    <linearGradient id="movingGradient" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse" spreadMethod="repeat">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset=".24" stop-color="#39c5cf"/>
+      <stop offset=".5" stop-color="#bc8cff"/>
+      <stop offset=".76" stop-color="#ff7b9c"/>
+      <stop offset="1" stop-color="#58a6ff"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 0;800 0" dur="16s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="auraBlue">
+      <stop offset="0" stop-color="#1f6feb" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#1f6feb" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="auraPink">
+      <stop offset="0" stop-color="#d946ef" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#d946ef" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="textGlow" x="-35%" y="-70%" width="170%" height="240%" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="softGlow"/>
+      <feComponentTransfer in="softGlow" result="glow"><feFuncA type="linear" slope=".72"/></feComponentTransfer>
+      <feMerge><feMergeNode in="glow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="1598" height="418" rx="22" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+  <circle cx="250" cy="110" r="300" fill="url(#auraBlue)"><animate attributeName="cx" values="250;520;250" dur="22s" repeatCount="indefinite"/></circle>
+  <circle cx="1360" cy="330" r="300" fill="url(#auraPink)"><animate attributeName="cx" values="1360;1080;1360" dur="26s" repeatCount="indefinite"/></circle>
+  <path d="M100 321H1500" stroke="#30363d" stroke-width="1"/>
+  <path d="M100 321H1500" stroke="url(#movingGradient)" stroke-width="2" opacity=".78" stroke-dasharray="90 1310" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" from="1400" to="0" dur="7s" repeatCount="indefinite"/>
+  </path>
+  <g fill="url(#movingGradient)" filter="url(#softGlow)" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-weight="600" opacity=".78">
+    <text x="112" y="128" font-size="23">{ }</text>
+    <text x="1420" y="286" font-size="23">&lt;/&gt;</text>
+    <circle cx="300" cy="285" r="3"><animate attributeName="cy" values="285;268;285" dur="4.4s" repeatCount="indefinite"/></circle>
+    <circle cx="1300" cy="128" r="3"><animate attributeName="cy" values="128;145;128" dur="5.1s" repeatCount="indefinite"/></circle>
+  </g>
+  <text x="800" y="104" text-anchor="middle" fill="#8b949e" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="5">CODE  ·  LEARN  ·  BUILD  ·  IMPROVE</text>
+  <text x="800" y="222" text-anchor="middle" fill="url(#movingGradient)" filter="url(#textGlow)" font-family="Arial, Helvetica, sans-serif" font-size="88" font-weight="750" letter-spacing="2">OM SARDAR</text>
+  <text x="800" y="274" text-anchor="middle" fill="#e6edf3" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="600" letter-spacing="2">SOFTWARE ENGINEER</text>
+  <text x="800" y="365" text-anchor="middle" fill="#aab4c0" font-family="Arial, Helvetica, sans-serif" font-size="17" letter-spacing="2">JAVA BACKEND  <tspan fill="#58a6ff">/</tspan>  SPRING BOOT  <tspan fill="#bc8cff">/</tspan>  FULL STACK</text>
+</svg>

@@ -7,13 +7,24 @@
     .motion { animation: none; }
     @media (prefers-reduced-motion: reduce) { .accent, .rule { animation: none; } .motion { display: none; } }
   </style>
+  <defs>
+    <linearGradient id="movingGradient" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse" spreadMethod="repeat">
+      <stop offset="0" stop-color="#58a6ff"/><stop offset=".24" stop-color="#39c5cf"/><stop offset=".5" stop-color="#bc8cff"/><stop offset=".76" stop-color="#ff7b9c"/><stop offset="1" stop-color="#58a6ff"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 0;800 0" dur="16s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="auraBlue"><stop offset="0" stop-color="#1f6feb" stop-opacity=".22"/><stop offset="1" stop-color="#1f6feb" stop-opacity="0"/></radialGradient>
+    <radialGradient id="auraPink"><stop offset="0" stop-color="#d946ef" stop-opacity=".14"/><stop offset="1" stop-color="#d946ef" stop-opacity="0"/></radialGradient>
+    <filter id="textGlow" x="-35%" y="-70%" width="170%" height="240%" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="softGlow"/><feComponentTransfer in="softGlow" result="glow"><feFuncA type="linear" slope=".62"/></feComponentTransfer><feMerge><feMergeNode in="glow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
   <title id="title">About Om Sardar</title>
   <desc id="desc">Software engineer focused on Java backend development, Spring Boot, microservices, system design, and full-stack applications.</desc>
-  <rect x="1" y="1" width="1598" height="378" rx="18" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+  <rect x="1" y="1" width="1598" height="378" rx="18" fill="#0d1117" stroke="#30363d" stroke-width="2"/><circle cx="220" cy="95" r="280" fill="url(#auraBlue)"><animate attributeName="cx" values="220;500;220" dur="22s" repeatCount="indefinite"/></circle><circle cx="1380" cy="285" r="300" fill="url(#auraPink)"><animate attributeName="cx" values="1380;1100;1380" dur="26s" repeatCount="indefinite"/></circle>
   <rect x="1" y="1" width="8" height="378" rx="4" fill="#58a6ff" class="accent"/>
   <text x="64" y="64" fill="#58a6ff" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="2">ABOUT ME</text>
-  <text x="64" y="132" fill="#e6edf3" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">Om Sardar<animate attributeName="fill" values="#e6edf3;#58a6ff;#39c5cf;#e6edf3" dur="6s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 0;0 0" keyTimes="0;.18;1" dur="5s" begin="0s" repeatCount="indefinite"/></text>
-  <text x="64" y="181" fill="#c9d1d9" font-family="Arial, Helvetica, sans-serif" font-size="25">Software Engineer · Java Backend · Full-Stack Development<animate attributeName="fill" values="#c9d1d9;#bc8cff;#c9d1d9" dur="8s" begin="1s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 0;0 0" keyTimes="0;.18;1" dur="5s" begin="1s" repeatCount="indefinite"/></text>
+  <text x="64" y="132" fill="url(#movingGradient)" filter="url(#textGlow)" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">Om Sardar<animateTransform attributeName="transform" type="translate" values="0 0;0 -2.5;0 0" keyTimes="0;.5;1" dur="6s" begin="0s" repeatCount="indefinite"/></text>
+  <text x="64" y="181" fill="url(#movingGradient)" filter="url(#textGlow)" font-family="Arial, Helvetica, sans-serif" font-size="25">Software Engineer · Java Backend · Full-Stack Development<animateTransform attributeName="transform" type="translate" values="0 0;0 -2.5;0 0" keyTimes="0;.5;1" dur="6s" begin="1s" repeatCount="indefinite"/></text>
   <line x1="64" y1="220" x2="1536" y2="220" stroke="#30363d"/>
   <line x1="64" y1="220" x2="1536" y2="220" stroke="#58a6ff" stroke-width="2" class="rule"/>
   <circle class="motion" cx="64" cy="220" r="4" fill="#39c5cf">
