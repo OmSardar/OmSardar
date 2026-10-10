@@ -32,11 +32,6 @@
   <a href="https://github.com/OM-SARDAR">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>&nbsp;
-  <!-- Portfolio URL is a placeholder — replace with your actual portfolio URL -->
-  <a href="https://yourportfolio.com">
-    <img src="https://img.shields.io/badge/Portfolio-58a6ff?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio (Placeholder)"/>
-  </a>
-
   <br/><br/>
 
   <img src="https://komarev.com/ghpvc/?username=OM-SARDAR&label=Profile+Views&color=1f6feb&style=flat-square" alt="Profile Views"/>
@@ -477,7 +472,7 @@ Real-time communication platform with AI chat, image sharing, authentication, an
 
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/OM-SARDAR/OM-SARDAR/output/github-contribution-grid-snake-dark.svg"
+    src="https://raw.githubusercontent.com/OmSardar/OmSardar/output/github-contribution-grid-snake-dark.svg"
     width="100%"
     alt="GitHub Contribution Snake"
   />
@@ -707,11 +702,6 @@ project/
   <a href="https://github.com/OM-SARDAR">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>&nbsp;&nbsp;
-  <!-- Portfolio URL is a placeholder — replace with your actual portfolio URL -->
-  <a href="https://yourportfolio.com">
-    <img src="https://img.shields.io/badge/Portfolio-58a6ff?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio (Placeholder)"/>
-  </a>
-
   <br/><br/>
 
   <samp>"Let's build, learn, and grow together."</samp>
