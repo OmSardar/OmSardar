@@ -435,7 +435,7 @@ An early project I built as my final-year BCA minor project. The codebase includ
 
 <div align="center">
 
-<samp>Feel free to reach out for collaboration, opportunities, or just a conversation about technology.</samp>
+<img src="./assets/connect-intro.svg" width="100%" alt="Feel free to reach out for collaboration, opportunities, or a conversation about technology" />
 
 <br/><br/>
 
@@ -450,7 +450,7 @@ An early project I built as my final-year BCA minor project. The codebase includ
   </a>&nbsp;&nbsp;
   <br/><br/>
 
-<samp>"Let's build, learn, and grow together."</samp>
+<img src="./assets/connect-signoff.svg" width="100%" alt="Let's build, learn, and grow together" />
 
 </div>
 
@@ -464,10 +464,6 @@ An early project I built as my final-year BCA minor project. The codebase includ
 
   <br/>
 
-<samp><strong>Build with purpose. Learn continuously. Ship better.</strong></samp>
-
-<br/><br/>
-
-<samp>Code &nbsp;&#8226;&nbsp; Learn &nbsp;&#8226;&nbsp; Build &nbsp;&#8226;&nbsp; Improve</samp>
+<img src="./assets/footer.svg" width="100%" alt="Build with purpose. Learn continuously. Ship better. Code, learn, build, improve." />
 
 </div>
