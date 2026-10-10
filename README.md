@@ -403,13 +403,13 @@ An early project I built as my final-year BCA minor project. The codebase includ
 
 <br/><br/>
 
-<h3 align="center" style="font-family: Georgia, serif;">System Architecture</h3>
+<h3 align="center" style="font-family: Georgia, serif;">System Design Reference</h3>
 
 <div align="center">
   <img
     src="./assets/system-architecture.svg"
     width="100%"
-    alt="System Architecture — Client, Load Balancer, API Application, and Observability"
+    alt="Conceptual architecture reference showing a browser client, edge routing, API services, data stores, and cross-cutting engineering concerns"
   />
 </div>
 
@@ -467,7 +467,7 @@ An early project I built as my final-year BCA minor project. The codebase includ
   <img
     src="./assets/engineering-loop.svg"
     width="100%"
-    alt="Engineering Mindset — Learn, Build, Test, Deploy, Measure, Improve"
+    alt="Engineering learning loop — Learn, Plan, Build, Test, Ship, and Reflect"
   />
 </div>
 
