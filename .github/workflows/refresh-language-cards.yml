@@ -1,0 +1,41 @@
+name: Refresh Cached Language Cards
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - README.md
+      - .github/scripts/refresh-language-card-cache.py
+      - .github/workflows/refresh-language-cards.yml
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+
+    steps:
+      - name: Check out profile README
+        uses: actions/checkout@v4
+
+      - name: Refresh card URLs only when their SVG data changes
+        run: python .github/scripts/refresh-language-card-cache.py
+
+      - name: Commit changed cache keys
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "Language cards are unchanged; no commit is needed."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: refresh cached language cards"
+          git push
