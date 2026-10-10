@@ -75,45 +75,9 @@
 
 <br/>
 
-<table width="100%">
-<tr>
-
-<td width="50%" valign="top">
-
-<h3>About Me</h3>
-
-Software engineer focused on Java backend development, Spring Boot,
-microservices, and system design. I also build full-stack applications;
-AuctionX began as my final-year BCA minor project.
-
-▸ <strong>Education:</strong> MCA — Kalyani Government Engineering College (KGEC), West Bengal
-
-▸ <strong>Location:</strong> Kolkata, West Bengal, India
-
-▸ <strong>Interests:</strong> Backend Development, Distributed Systems, Cloud, AI/ML, Data Engineering
-
-▸ <strong>Hobbies:</strong> Coffee, Painting, Blender, Exploring Tech
-
-</td>
-
-<td width="50%" valign="top">
-
-<h3>Current Focus</h3>
-
-▸ Strengthening DSA and System Design fundamentals
-
-▸ Building real-world projects with Java and Spring Boot
-
-▸ Exploring Cloud, AWS, DevOps and AI tools
-
-▸ Learning Cyber Security and CI/CD pipelines
-
-▸ Deepening Advanced AI/ML Integration
-
-</td>
-
-</tr>
-</table>
+<div align="center">
+  <img src="./assets/about-focus.svg" width="100%" alt="About Om Sardar and current learning focus" />
+</div>
 
 <br/>
 
@@ -413,37 +377,9 @@ An early project I built as my final-year BCA minor project. The codebase includ
 
 <h3 align="center" style="font-family: Georgia, serif;">Key Areas of Interest</h3>
 
-<table width="100%">
-  <tr>
-    <td width="33%" valign="top">
-      <strong>📈 Scalability &amp; Performance</strong>
-      <ul>
-        <li>Horizontal scaling strategies</li>
-        <li>Caching with Redis</li>
-        <li>Database optimization</li>
-        <li>Load balancing</li>
-      </ul>
-    </td>
-    <td width="34%" valign="top">
-      <strong>🛡️ Security &amp; Reliability</strong>
-      <ul>
-        <li>Authentication (JWT, OAuth)</li>
-        <li>Input validation and sanitization</li>
-        <li>Rate limiting and CSRF protection</li>
-        <li>Error handling patterns</li>
-      </ul>
-    </td>
-    <td width="33%" valign="top">
-      <strong>🏗️ Architecture &amp; Design</strong>
-      <ul>
-        <li>API design (REST)</li>
-        <li>Distributed systems concepts</li>
-        <li>Event-driven patterns</li>
-        <li>CI/CD and observability</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="./assets/key-areas.svg" width="100%" alt="Key engineering interests: scalability and performance, security and reliability, and architecture and design" />
+</div>
 
 <br/>
 
@@ -461,28 +397,9 @@ An early project I built as my final-year BCA minor project. The codebase includ
 
 <h3 align="center" style="font-family: Georgia, serif;">Development Principles</h3>
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <ol>
-        <li>Understand the problem before writing code</li>
-        <li>Design before implementation</li>
-        <li>Write maintainable, readable code</li>
-        <li>Validate edge cases and failures</li>
-        <li>Secure the application at every layer</li>
-      </ol>
-    </td>
-    <td width="50%" valign="top">
-      <ol start="6">
-        <li>Test important paths thoroughly</li>
-        <li>Measure before optimizing</li>
-        <li>Document decisions and trade-offs</li>
-        <li>Automate repetitive work</li>
-        <li>Keep learning — always</li>
-      </ol>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="./assets/principles.svg" width="100%" alt="Ten development principles, from understanding the problem and designing first to testing, measuring, documenting, automating, and continuing to learn" />
+</div>
 
 ---
 
@@ -492,64 +409,9 @@ An early project I built as my final-year BCA minor project. The codebase includ
 
 <h2 align="center" style="font-family: Georgia, serif;" id="roadmap">Roadmap</h2>
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <strong>🧱 FOUNDATION</strong>
-      <ul>
-        <li>Full-stack development (MERN)</li>
-        <li>REST API design</li>
-        <li>Authentication (JWT, OAuth)</li>
-        <li>Git and GitHub</li>
-        <li>MongoDB and SQL databases</li>
-        <li>DSA fundamentals</li>
-        <li>Responsive web design</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <strong>⚡ CURRENT FOCUS</strong>
-      <ul>
-        <li>Java and Spring Boot</li>
-        <li>Advanced DSA</li>
-        <li>System design fundamentals</li>
-        <li>AWS and cloud services</li>
-        <li>Docker and containers</li>
-        <li>CI/CD pipelines</li>
-        <li>Cybersecurity concepts</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <strong>🧭 EXPLORING</strong>
-      <ul>
-        <li>Microservices architecture</li>
-        <li>Distributed systems</li>
-        <li>Kafka and message queues</li>
-        <li>Advanced Redis patterns</li>
-        <li>AI/ML and LLM applications</li>
-        <li>Cloud architecture</li>
-        <li>Data engineering pipelines</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <strong>➡️ NEXT</strong>
-      <ul>
-        <li>Production-scale systems</li>
-        <li>Event-driven architecture</li>
-        <li>Agentic AI</li>
-        <li>Open-source contributions</li>
-        <li>Advanced backend engineering</li>
-        <li>Data engineering</li>
-        <li>System reliability</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<p align="center">
-  <sub><strong>Foundation</strong> · Built with &nbsp;&nbsp; <strong>Current focus</strong> · Actively learning &nbsp;&nbsp; <strong>Exploring</strong> · Starting to explore &nbsp;&nbsp; <strong>Next</strong> · Future goals</sub>
-</p>
+<div align="center">
+  <img src="./assets/roadmap.svg" width="100%" alt="Learning roadmap across foundation, current focus, exploring, and next goals" />
+</div>
 
 ---
 
@@ -559,28 +421,9 @@ An early project I built as my final-year BCA minor project. The codebase includ
 
 <h2 align="center" style="font-family: Georgia, serif;" id="open-to">Open To</h2>
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <strong>💼 CAREER OPPORTUNITIES</strong>
-      <ul>
-        <li>Internships and entry-level opportunities</li>
-        <li>Full-time software engineering roles</li>
-        <li>Full-stack development positions</li>
-        <li>Backend development roles</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <strong>🤝 COLLABORATION</strong>
-      <ul>
-        <li>Freelance and technical projects</li>
-        <li>Open-source collaboration</li>
-        <li>Technical writing and knowledge sharing</li>
-        <li>Interesting project collaborations</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="./assets/open-to.svg" width="100%" alt="Open to career opportunities and collaboration, including internships, software roles, freelance projects, open source, and technical writing" />
+</div>
 
 ---
 
