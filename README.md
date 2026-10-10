@@ -5,7 +5,7 @@
 
 <div align="center">
 
-  <img
+<img
     src="./assets/oms.gif"
     width="100%"
     alt="Om Sardar — Full Stack Developer"
@@ -19,9 +19,9 @@
 
   <br/>
 
-  <samp>Building scalable applications and turning complex problems into elegant solutions</samp>
+<samp>Building scalable applications and turning complex problems into elegant solutions</samp>
 
-  <br/><br/>
+<br/><br/>
 
   <a href="https://www.linkedin.com/in/om-sardar/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
@@ -29,14 +29,14 @@
   <a href="mailto:omsardar14@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>&nbsp;
-  <a href="https://github.com/OM-SARDAR">
+  <a href="https://github.com/OmSardar">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>&nbsp;
   <br/><br/>
 
-  <img src="https://komarev.com/ghpvc/?username=OM-SARDAR&label=Profile+Views&color=1f6feb&style=flat-square" alt="Profile Views"/>
+  <img src="https://komarev.com/ghpvc/?username=OmSardar&label=Profile+Views&color=1f6feb&style=flat-square" alt="Profile Views"/>
   &nbsp;
-  <img src="https://img.shields.io/github/followers/OM-SARDAR?label=Followers&style=flat-square&color=1f6feb&labelColor=0d1117" alt="GitHub Followers"/>
+  <img src="https://img.shields.io/github/followers/OmSardar?label=Followers&style=flat-square&color=1f6feb&labelColor=0d1117" alt="GitHub Followers"/>
 
 </div>
 
@@ -67,7 +67,7 @@
 
 <div align="center">
 
-  <img
+<img
     src="./assets/about.svg"
     width="100%"
     alt="Om Sardar developer profile"
@@ -84,10 +84,9 @@
 
 <h3>About Me</h3>
 
-Full-stack developer specializing in building scalable web applications
-with the MERN stack. Passionate about backend development, system design,
-cloud technologies, and AI.
-
+Software engineer focused on Java backend development, Spring Boot,
+microservices, and system design. I also build full-stack applications;
+AuctionX began as my final-year BCA minor project.
 
 ▸ <strong>Education:</strong> MCA — Kalyani Government Engineering College (KGEC), West Bengal
 
@@ -122,7 +121,7 @@ cloud technologies, and AI.
 
 <div align="center">
 
-  <img
+<img
     src="./assets/focus.svg"
     width="100%"
     alt="Current development focus"
@@ -134,7 +133,7 @@ cloud technologies, and AI.
 
 <div align="center">
 
-  <img
+<img
     src="./assets/goals.svg"
     width="100%"
     alt="Om Sardar — Goals and Engineering Vision"
@@ -150,47 +149,42 @@ cloud technologies, and AI.
 <!--                         TECHNOLOGY STACK                                 -->
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
 
-<h2 align="center" style="font-family: Georgia, serif;" id="technology-stack">============: Technology Stack :============</h2>
+<h2 align="center" style="font-family: Georgia, serif;" id="technology-stack">Technology Stack</h2>
 
-<h3 align="center" style="font-family: Georgia, serif;">==========:Core Technologies :==========</h3>
+<h3 align="center" style="font-family: Georgia, serif;">Core Technologies</h3>
 
 <br/>
 
 <div align="center">
 
-**Programming Languages**
+<h4 align="center" style="color: #58A6FF;">Programming Languages</h4>
 
-<img src="https://skillicons.dev/icons?i=java,js,py,cpp,php,dotnet,kotlin&theme=dark" alt="Languages"/>
+<p align="center"><img src="https://skillicons.dev/icons?i=java,js,ts,py,cpp&theme=dark&perline=5" alt="Java, JavaScript, TypeScript, Python, and C++"/></p>
+<p align="center"><img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQL"/></p>
 
-<br/>
+<h4 align="center" style="color: #58A6FF;">Frontend Development</h4>
 
-**Frontend Development**
+<p align="center"><img src="https://skillicons.dev/icons?i=react,html,css,tailwind,bootstrap,vite,nextjs,redux&theme=dark&perline=8" alt="React, HTML, CSS, Tailwind CSS, Bootstrap, Vite, Next.js, and Redux"/></p>
+<p align="center"><img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white" alt="React Router"/>&nbsp;<img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" alt="Axios"/>&nbsp;<img src="https://img.shields.io/badge/Redux_Toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=white" alt="Redux Toolkit"/></p>
 
-<img src="https://skillicons.dev/icons?i=react,html,css,tailwind,bootstrap,vite,redux&theme=dark" alt="Frontend"/>
+<h4 align="center" style="color: #58A6FF;">Backend & Databases</h4>
 
-<br/>
+<p align="center"><img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql,postgres,redis&theme=dark&perline=6" alt="Node.js, Express.js, MongoDB, MySQL, PostgreSQL, and Redis"/></p>
+<p align="center"><img src="https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white" alt="Mongoose"/>&nbsp;<img src="https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socketdotio&logoColor=white" alt="Socket.IO"/>&nbsp;<img src="https://img.shields.io/badge/REST_APIs-005571?style=for-the-badge&logo=fastapi&logoColor=white" alt="REST APIs"/>&nbsp;<img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT"/>&nbsp;<img src="https://img.shields.io/badge/OAuth%20%2F%20Passport.js-34A853?style=for-the-badge&logo=passport&logoColor=white" alt="OAuth and Passport.js"/></p>
 
-**Backend & Databases**
+<h4 align="center" style="color: #58A6FF;">Java Ecosystem</h4>
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql,postgres,redis&theme=dark" alt="Backend and Databases"/>
+<p align="center"><img src="https://skillicons.dev/icons?i=spring,hibernate,maven&theme=dark&perline=3" alt="Spring Boot, Hibernate, and Maven"/></p>
+<p align="center"><img src="https://img.shields.io/badge/Spring_MVC-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring MVC"/>&nbsp;<img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white" alt="Spring Security"/>&nbsp;<img src="https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring Data JPA"/>&nbsp;<img src="https://img.shields.io/badge/JPA-4479A1?style=for-the-badge&logo=hibernate&logoColor=white" alt="JPA"/>&nbsp;<img src="https://img.shields.io/badge/JDBC-4479A1?style=for-the-badge&logo=databricks&logoColor=white" alt="JDBC"/></p>
 
-<br/>
+<h4 align="center" style="color: #58A6FF;">Cloud & DevOps</h4>
 
-**Java Ecosystem**
+<p align="center"><img src="https://skillicons.dev/icons?i=aws,gcp,azure,docker,kubernetes,linux,githubactions&theme=dark&perline=7" alt="AWS, GCP, Azure, Docker, Kubernetes, Linux, and GitHub Actions"/></p>
 
-<img src="https://skillicons.dev/icons?i=spring,hibernate,maven,gradle&theme=dark" alt="Java Ecosystem"/>
+<h4 align="center" style="color: #58A6FF;">Developer Tools & Testing</h4>
 
-<br/>
-
-**Cloud & DevOps**
-
-<img src="https://skillicons.dev/icons?i=aws,gcp,azure,docker,linux,ubuntu&theme=dark" alt="Cloud and DevOps"/>
-
-<br/>
-
-**Developer Tools**
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,idea,androidstudio,postman,npm,webpack,babel,jest,firebase&theme=dark" alt="Developer Tools"/>
+<p align="center"><img src="https://skillicons.dev/icons?i=git,github,vscode,idea,clion,pycharm,webstorm,blender,androidstudio,postman,npm,jest&theme=dark&perline=6" alt="Git, GitHub, VS Code, IntelliJ IDEA, CLion, PyCharm, WebStorm, Blender, Android Studio, Postman, npm, and Jest"/></p>
+<p align="center"><img src="https://img.shields.io/badge/JUnit-25A162?style=for-the-badge&logo=junit5&logoColor=white" alt="JUnit"/>&nbsp;<img src="https://img.shields.io/badge/Mockito-78A641?style=for-the-badge&logo=mockito&logoColor=white" alt="Mockito"/>&nbsp;<img src="https://img.shields.io/badge/React_Testing_Library-E33332?style=for-the-badge&logo=testinglibrary&logoColor=white" alt="React Testing Library"/>&nbsp;<img src="https://img.shields.io/badge/Supertest-222222?style=for-the-badge&logo=jest&logoColor=white" alt="Supertest"/>&nbsp;<img src="https://img.shields.io/badge/OpenAPI%20%2F%20Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="OpenAPI and Swagger"/></p>
 
 </div>
 
@@ -200,102 +194,81 @@ cloud technologies, and AI.
 
 <table width="100%">
 <tr>
-
-<td width="33%" valign="top">
-
-<h4 align="center" style="font-family: Georgia, serif;">Frontend & UI</h4>
-
-<img src="https://img.shields.io/badge/React_Router-CA4245?style=flat&logo=reactrouter&logoColor=white"/>
-<img src="https://img.shields.io/badge/Ant_Design-0170FE?style=flat&logo=antdesign&logoColor=white"/>
-<img src="https://img.shields.io/badge/ShadCN_UI-000000?style=flat&logo=shadcnui&logoColor=white"/>
-<img src="https://img.shields.io/badge/Radix_UI-161618?style=flat&logo=radixui&logoColor=white"/>
-<img src="https://img.shields.io/badge/React_Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white"/>
-<img src="https://img.shields.io/badge/MDB_UI_Kit-2196F3?style=flat&logo=materialdesign&logoColor=white"/>
-
-<br/>
-
-<h4 align="center" style="font-family: Georgia, serif;">Backend & Middleware</h4>
-
-<img src="https://img.shields.io/badge/Mongoose-880000?style=flat&logo=mongoose&logoColor=white"/>
-<img src="https://img.shields.io/badge/Helmet-000000?style=flat&logo=helmet&logoColor=white"/>
-<img src="https://img.shields.io/badge/CORS-FF6C37?style=flat&logo=express&logoColor=white"/>
-<img src="https://img.shields.io/badge/dotenv-ECD53F?style=flat&logo=dotenv&logoColor=black"/>
-<img src="https://img.shields.io/badge/Rate_Limit-FF6B6B?style=flat&logo=express&logoColor=white"/>
-<img src="https://img.shields.io/badge/Cookie_Parser-8B4513?style=flat&logo=express&logoColor=white"/>
-<img src="https://img.shields.io/badge/Morgan-000000?style=flat&logo=express&logoColor=white"/>
-<img src="https://img.shields.io/badge/Winston-231F20?style=flat&logo=npm&logoColor=white"/>
-<img src="https://img.shields.io/badge/Multer-FF6600?style=flat&logo=express&logoColor=white"/>
-<img src="https://img.shields.io/badge/Express_Validator-404D59?style=flat&logo=express&logoColor=white"/>
-<img src="https://img.shields.io/badge/Mongo_Sanitize-4EA94B?style=flat&logo=mongodb&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSRF-DC143C?style=flat&logo=npm&logoColor=white"/>
-
+<td width="33%" valign="top" align="center">
+<h4>Frontend & UI</h4>
+<img src="https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=reactrouter&logoColor=white"/>
+<img src="https://img.shields.io/badge/Ant_Design-0170FE?style=flat-square&logo=antdesign&logoColor=white"/>
+<img src="https://img.shields.io/badge/ShadCN_UI-000000?style=flat-square&logo=shadcnui&logoColor=white"/>
+<img src="https://img.shields.io/badge/Radix_UI-161618?style=flat-square&logo=radixui&logoColor=white"/>
+<img src="https://img.shields.io/badge/React_Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white"/>
+<img src="https://img.shields.io/badge/MDB_UI_Kit-2196F3?style=flat-square&logo=materialdesign&logoColor=white"/>
 </td>
-
-<td width="33%" valign="top">
-
-<h4 align="center" style="font-family: Georgia, serif;">Animation & Visualization</h4>
-
-<img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat&logo=framer&logoColor=white"/>
-<img src="https://img.shields.io/badge/GSAP-88CE02?style=flat&logo=greensock&logoColor=white"/>
-<img src="https://img.shields.io/badge/AOS-4285F4?style=flat&logo=javascript&logoColor=white"/>
-<img src="https://img.shields.io/badge/Lenis-000000?style=flat&logo=javascript&logoColor=white"/>
-<img src="https://img.shields.io/badge/Chart.js-FF6384?style=flat&logo=chartdotjs&logoColor=white"/>
-
-<br/>
-
-<h4 align="center" style="font-family: Georgia, serif;">Icons & UX</h4>
-
-<img src="https://img.shields.io/badge/Font_Awesome-339AF0?style=flat&logo=fontawesome&logoColor=white"/>
-<img src="https://img.shields.io/badge/React_Icons-61DAFB?style=flat&logo=react&logoColor=black"/>
-<img src="https://img.shields.io/badge/Lucide_React-F56565?style=flat&logo=lucide&logoColor=white"/>
-<img src="https://img.shields.io/badge/React_Hot_Toast-FF6B6B?style=flat&logo=react&logoColor=white"/>
-<img src="https://img.shields.io/badge/SweetAlert2-3085d6?style=flat&logo=javascript&logoColor=white"/>
-<img src="https://img.shields.io/badge/React_Toastify-FF6B6B?style=flat&logo=react&logoColor=white"/>
-
-<br/>
-
-<h4 align="center" style="font-family: Georgia, serif;">Date & PDF</h4>
-
-<img src="https://img.shields.io/badge/Moment.js-2C5AA0?style=flat&logo=npm&logoColor=white"/>
-<img src="https://img.shields.io/badge/Date--fns-770C56?style=flat&logo=npm&logoColor=white"/>
-<img src="https://img.shields.io/badge/jsPDF-FF5722?style=flat&logo=adobeacrobatreader&logoColor=white"/>
-<img src="https://img.shields.io/badge/PDF--lib-FF5722?style=flat&logo=adobeacrobatreader&logoColor=white"/>
-<img src="https://img.shields.io/badge/PDFKit-FF5722?style=flat&logo=adobeacrobatreader&logoColor=white"/>
-
+<td width="33%" valign="top" align="center">
+<h4>Backend & Middleware</h4>
+<img src="https://img.shields.io/badge/Mongoose-880000?style=flat-square&logo=mongoose&logoColor=white"/>
+<img src="https://img.shields.io/badge/Helmet-000000?style=flat-square&logo=helmet&logoColor=white"/>
+<img src="https://img.shields.io/badge/CORS-FF6C37?style=flat-square&logo=express&logoColor=white"/>
+<img src="https://img.shields.io/badge/dotenv-ECD53F?style=flat-square&logo=dotenv&logoColor=black"/>
+<img src="https://img.shields.io/badge/Rate_Limit-FF6B6B?style=flat-square&logo=express&logoColor=white"/>
+<img src="https://img.shields.io/badge/Cookie_Parser-8B4513?style=flat-square&logo=express&logoColor=white"/>
+<img src="https://img.shields.io/badge/Morgan-000000?style=flat-square&logo=express&logoColor=white"/>
+<img src="https://img.shields.io/badge/Winston-231F20?style=flat-square&logo=npm&logoColor=white"/>
+<img src="https://img.shields.io/badge/Multer-FF6600?style=flat-square&logo=express&logoColor=white"/>
+<img src="https://img.shields.io/badge/Express_Validator-404D59?style=flat-square&logo=express&logoColor=white"/>
+<img src="https://img.shields.io/badge/Mongo_Sanitize-4EA94B?style=flat-square&logo=mongodb&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSRF-DC143C?style=flat-square&logo=npm&logoColor=white"/>
 </td>
-
-<td width="33%" valign="top">
-
-<h4 align="center" style="font-family: Georgia, serif;">Databases</h4>
-
-<img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white"/>
-<img src="https://img.shields.io/badge/Oracle-F80000?style=flat&logo=oracle&logoColor=white"/>
-
-<br/>
-
-<h4 align="center" style="font-family: Georgia, serif;">Mobile Development</h4>
-
-<img src="https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white"/>
-<img src="https://img.shields.io/badge/Kotlin-0095D5?style=flat&logo=kotlin&logoColor=white"/>
-
-<br/>
-
-<h4 align="center" style="font-family: Georgia, serif;">Build & Quality</h4>
-
-<img src="https://img.shields.io/badge/ESLint-4B32C3?style=flat&logo=eslint&logoColor=white"/>
-<img src="https://img.shields.io/badge/Prettier-F7B93E?style=flat&logo=prettier&logoColor=black"/>
-<img src="https://img.shields.io/badge/pip-3776AB?style=flat&logo=python&logoColor=white"/>
-
-<br/>
-
-<h4 align="center" style="font-family: Georgia, serif;">Development Environment</h4>
-
-<img src="https://img.shields.io/badge/Eclipse-2C2255?style=flat&logo=eclipse&logoColor=white"/>
-<img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=flat&logo=visualstudio&logoColor=white"/>
-<img src="https://img.shields.io/badge/Discord-7289DA?style=flat&logo=discord&logoColor=white"/>
-
+<td width="33%" valign="top" align="center">
+<h4>Animation & Visualization</h4>
+<img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white"/>
+<img src="https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=white"/>
+<img src="https://img.shields.io/badge/AOS-4285F4?style=flat-square&logo=javascript&logoColor=white"/>
+<img src="https://img.shields.io/badge/Lenis-000000?style=flat-square&logo=javascript&logoColor=white"/>
+<img src="https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white"/>
 </td>
-
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<h4>Icons & UX</h4>
+<img src="https://img.shields.io/badge/Font_Awesome-339AF0?style=flat-square&logo=fontawesome&logoColor=white"/>
+<img src="https://img.shields.io/badge/React_Icons-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+<img src="https://img.shields.io/badge/Lucide_React-F56565?style=flat-square&logo=lucide&logoColor=white"/>
+<img src="https://img.shields.io/badge/React_Hot_Toast-FF6B6B?style=flat-square&logo=react&logoColor=white"/>
+<img src="https://img.shields.io/badge/SweetAlert2-3085d6?style=flat-square&logo=javascript&logoColor=white"/>
+<img src="https://img.shields.io/badge/React_Toastify-FF6B6B?style=flat-square&logo=react&logoColor=white"/>
+</td>
+<td width="33%" valign="top" align="center">
+<h4>Date & PDF</h4>
+<img src="https://img.shields.io/badge/Moment.js-2C5AA0?style=flat-square&logo=npm&logoColor=white"/>
+<img src="https://img.shields.io/badge/Date--fns-770C56?style=flat-square&logo=npm&logoColor=white"/>
+<img src="https://img.shields.io/badge/jsPDF-FF5722?style=flat-square&logo=adobeacrobatreader&logoColor=white"/>
+<img src="https://img.shields.io/badge/PDF--lib-FF5722?style=flat-square&logo=adobeacrobatreader&logoColor=white"/>
+<img src="https://img.shields.io/badge/PDFKit-FF5722?style=flat-square&logo=adobeacrobatreader&logoColor=white"/>
+</td>
+<td width="33%" valign="top" align="center">
+<h4>Databases</h4>
+<img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white"/>
+<img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white"/>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<h4>Mobile Development</h4>
+<img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white"/>
+<img src="https://img.shields.io/badge/Kotlin-0095D5?style=flat-square&logo=kotlin&logoColor=white"/>
+</td>
+<td width="33%" valign="top" align="center">
+<h4>Build & Quality</h4>
+<img src="https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white"/>
+<img src="https://img.shields.io/badge/Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=black"/>
+<img src="https://img.shields.io/badge/pip-3776AB?style=flat-square&logo=python&logoColor=white"/>
+</td>
+<td width="33%" valign="top" align="center">
+<h4>Development Environment</h4>
+<img src="https://img.shields.io/badge/Eclipse-2C2255?style=flat-square&logo=eclipse&logoColor=white"/>
+<img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=flat-square&logo=visualstudio&logoColor=white"/>
+<img src="https://img.shields.io/badge/Discord-7289DA?style=flat-square&logo=discord&logoColor=white"/>
+</td>
 </tr>
 </table>
 
@@ -309,92 +282,30 @@ cloud technologies, and AI.
 
 <table width="100%">
 <tr>
+<td valign="top">
 
-<td colspan="3" valign="top">
+<h3>AuctionX · MERN Auction Application</h3>
 
-<h2 align="center" style="font-family: Georgia, serif;">01 · Auction-X</h2>
+An early project I built as my final-year BCA minor project. The codebase includes auction listings and bidding interfaces, account flows, and seller and admin screens.
 
-<strong>Real-Time Bidding Platform</strong>
+<strong>Project status:</strong> This public repository contains an earlier learning implementation. Its README documents serious security and correctness issues; do not use it with real accounts, personal data, or payments.
 
-Full-featured auction platform built around real-time bidding, digital wallets,
-secure authentication, and cloud-based media storage.
-
-<strong>Core</strong><br/>
-
-Real-time bidding · Digital wallet · JWT authentication · Cloudinary
-
-<img src="https://img.shields.io/badge/MERN-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white"/>
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
 <img src="https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socket.io&logoColor=white"/>
-<img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
-<img src="https://img.shields.io/badge/Cloudinary-3448C5?style=flat-square&logo=cloudinary&logoColor=white"/>
 
-<br/>
-<a href="https://github.com/OM-SARDAR/AUCTION-X-LOCALHOST">
+<br/><br/>
+<a href="https://github.com/OmSardar/AuctionX-Live-Auction-Platform"><strong>VIEW MINOR-PROJECT SOURCE ↗</strong></a>
+&nbsp; · &nbsp;
+<a href="https://auction-x-minor-project-2024.onrender.com/"><strong>OPEN MINOR-PROJECT DEMO ↗</strong></a>
 
-<strong>VIEW SOURCE ↗</strong>
-</a>
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="33%" valign="top">
-
-<h3 align="center" style="font-family: Georgia, serif;">02 · Auction-X Enhanced</h3>
-
-<strong>AI-Integrated Auction Platform</strong>
-
-Real-time auction system enhanced with AI functionality and modern UI/UX.
-
-<img src="https://img.shields.io/badge/MERN-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
-<img src="https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socket.io&logoColor=white"/>
-<img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
-<br/>
-<a href="https://github.com/OM-SARDAR/AUCTION-X-Enhanced-LOCALHOST">
-<strong>VIEW SOURCE ↗</strong>
-</a>
+<br/><br/>
+<a href="https://the-auction-x.onrender.com/"><strong>OPEN ENHANCED VERSION ↗</strong></a>
+<br/><sub>The enhanced deployment is a separate build; its source is not public on GitHub yet.</sub>
 
 </td>
-
-<td width="33%" valign="top">
-
-<h3 align="center" style="font-family: Georgia, serif;">03 · Eventra</h3>
-
-<strong>Smart Event Ticketing</strong>
-
-Event platform for online/offline ticket issuing, validation, and QR scanning.
-
-<img src="https://img.shields.io/badge/MERN-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
-<img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
-<img src="https://img.shields.io/badge/QR-000000?style=flat-square&logo=qrcode&logoColor=white"/>
-
-<br/>
-<a href="https://github.com/OM-SARDAR/EVENTRA-LOCALHOST">
-<strong>VIEW SOURCE ↗</strong>
-</a>
-
-</td>
-
-<td width="33%" valign="top">
-
-<h3 align="center" style="font-family: Georgia, serif;">04 · Lucy Chat</h3>
-
-<strong>Real-Time AI Chat Platform</strong>
-
-Real-time communication platform with AI chat, image sharing, authentication, and cloud storage.
-
-<img src="https://img.shields.io/badge/MERN-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
-<img src="https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socket.io&logoColor=white"/>
-<img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
-<br/>
-<a href="https://github.com/OM-SARDAR/LUCY-LOCALHOST">
-<strong>VIEW SOURCE ↗</strong>
-</a>
-
-</td>
-
 </tr>
 </table>
 
@@ -416,7 +327,7 @@ Real-time communication platform with AI chat, image sharing, authentication, an
 
 <p align="center">
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=OM-SARDAR&theme=github_dark"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=OmSardar&theme=github_dark"
     width="100%"
     alt="GitHub Profile Details"
   />
@@ -426,7 +337,7 @@ Real-time communication platform with AI chat, image sharing, authentication, an
 
 <p align="center">
   <img
-    src="https://streak-stats.demolab.com?user=OM-SARDAR&theme=github-dark-blue&hide_border=true"
+    src="https://streak-stats.demolab.com?user=OmSardar&theme=github-dark-blue&hide_border=true"
     width="70%"
     alt="GitHub Contribution Streak"
   />
@@ -436,11 +347,11 @@ Real-time communication platform with AI chat, image sharing, authentication, an
 
 <p align="center">
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=OM-SARDAR&theme=github_dark"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=OmSardar&theme=github_dark"
     width="49%"
     alt="GitHub Statistics"
   /><img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=OM-SARDAR&theme=github_dark&utcOffset=5.5"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=OmSardar&theme=github_dark&utcOffset=5.5"
     width="49%"
     alt="Productive Coding Time"
   />
@@ -450,11 +361,11 @@ Real-time communication platform with AI chat, image sharing, authentication, an
 
 <p align="center">
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=OM-SARDAR&theme=github_dark"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=OmSardar&theme=github_dark"
     width="49%"
     alt="Repositories Per Language"
   /><img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=OM-SARDAR&theme=github_dark"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=OmSardar&theme=github_dark"
     width="49%"
     alt="Most Used Commit Languages"
   />
@@ -478,8 +389,7 @@ Real-time communication platform with AI chat, image sharing, authentication, an
   />
 </p>
 
-<br>
----
+## <br>
 
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
 <!--                       ENGINEERING MINDSET                                -->
@@ -586,15 +496,15 @@ Real-time communication platform with AI chat, image sharing, authentication, an
 
 <h2 align="center" style="font-family: Georgia, serif;" id="roadmap">Roadmap</h2>
 
-| Foundation | Current Focus | Exploring | Next |
-|:-----------|:-------------|:----------|:-----|
-| Full-Stack Development (MERN) | Java and Spring Boot | Microservices Architecture | Production-Scale Systems |
-| REST API Design | Advanced DSA | Distributed Systems | Event-Driven Architecture |
-| Authentication (JWT, OAuth) | System Design Fundamentals | Kafka and Message Queues | Agentic AI |
-| Git and GitHub | AWS and Cloud Services | Redis (Advanced Patterns) | Open Source Contributions |
-| MongoDB and SQL Databases | Docker and Containerization | AI/ML and LLM Applications | Advanced Backend Engineering |
-| DSA Fundamentals | CI/CD Pipelines | Cloud Architecture | Data Engineering |
-| Responsive Web Design | Cyber Security Concepts | Data Engineering Pipelines | System Reliability |
+| Foundation                    | Current Focus               | Exploring                  | Next                         |
+| :---------------------------- | :-------------------------- | :------------------------- | :--------------------------- |
+| Full-Stack Development (MERN) | Java and Spring Boot        | Microservices Architecture | Production-Scale Systems     |
+| REST API Design               | Advanced DSA                | Distributed Systems        | Event-Driven Architecture    |
+| Authentication (JWT, OAuth)   | System Design Fundamentals  | Kafka and Message Queues   | Agentic AI                   |
+| Git and GitHub                | AWS and Cloud Services      | Redis (Advanced Patterns)  | Open Source Contributions    |
+| MongoDB and SQL Databases     | Docker and Containerization | AI/ML and LLM Applications | Advanced Backend Engineering |
+| DSA Fundamentals              | CI/CD Pipelines             | Cloud Architecture         | Data Engineering             |
+| Responsive Web Design         | Cyber Security Concepts     | Data Engineering Pipelines | System Reliability           |
 
 <br/>
 
@@ -603,46 +513,6 @@ Real-time communication platform with AI chat, image sharing, authentication, an
 </p>
 
 ---
-
-<!-- ══════════════════════════════════════════════════════════════════════════ -->
-<!--                       REPOSITORY STRUCTURE                               -->
-<!-- ══════════════════════════════════════════════════════════════════════════ -->
-
-<h2 align="center" style="font-family: Georgia, serif;" id="repository-structure">Repository Structure</h2>
-
-<p align="center">
-  <samp>Example project structure — represents a general approach, not a specific repository.</samp>
-</p>
-
-```
-project/
-├── src/
-│   ├── controllers/       # Request handlers
-│   ├── services/          # Business logic
-│   ├── routes/            # API route definitions
-│   ├── models/            # Database schemas
-│   ├── middleware/         # Auth, validation, error handling
-│   ├── utils/             # Helper functions
-│   └── config/            # Configuration and environment
-│
-├── client/                # Frontend (React)
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── hooks/
-│   │   ├── context/
-│   │   └── utils/
-│   └── public/
-│
-├── tests/                 # Unit and integration tests
-├── docs/                  # Documentation
-├── .github/
-│   └── workflows/         # CI/CD pipelines
-├── .env.example           # Environment variables template
-├── Dockerfile             # Container configuration
-├── README.md
-└── LICENSE
-```
 
 ---
 
@@ -689,9 +559,9 @@ project/
 
 <div align="center">
 
-  <samp>Feel free to reach out for collaboration, opportunities, or just a conversation about technology.</samp>
+<samp>Feel free to reach out for collaboration, opportunities, or just a conversation about technology.</samp>
 
-  <br/><br/>
+<br/><br/>
 
   <a href="https://www.linkedin.com/in/om-sardar/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
@@ -699,12 +569,12 @@ project/
   <a href="mailto:omsardar14@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>&nbsp;&nbsp;
-  <a href="https://github.com/OM-SARDAR">
+  <a href="https://github.com/OmSardar">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>&nbsp;&nbsp;
   <br/><br/>
 
-  <samp>"Let's build, learn, and grow together."</samp>
+<samp>"Let's build, learn, and grow together."</samp>
 
 </div>
 
@@ -718,10 +588,10 @@ project/
 
   <br/>
 
-  <samp><strong>Build with purpose. Learn continuously. Ship better.</strong></samp>
+<samp><strong>Build with purpose. Learn continuously. Ship better.</strong></samp>
 
-  <br/><br/>
+<br/><br/>
 
-  <samp>Code &nbsp;&#8226;&nbsp; Learn &nbsp;&#8226;&nbsp; Build &nbsp;&#8226;&nbsp; Improve</samp>
+<samp>Code &nbsp;&#8226;&nbsp; Learn &nbsp;&#8226;&nbsp; Build &nbsp;&#8226;&nbsp; Improve</samp>
 
 </div>
