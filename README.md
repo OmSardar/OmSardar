@@ -494,7 +494,7 @@ An early project I built as my final-year BCA minor project. The codebase includ
 
 <table width="100%">
   <tr>
-    <td width="25%" valign="top">
+    <td width="50%" valign="top">
       <strong>🧱 FOUNDATION</strong>
       <ul>
         <li>Full-stack development (MERN)</li>
@@ -506,7 +506,7 @@ An early project I built as my final-year BCA minor project. The codebase includ
         <li>Responsive web design</li>
       </ul>
     </td>
-    <td width="25%" valign="top">
+    <td width="50%" valign="top">
       <strong>⚡ CURRENT FOCUS</strong>
       <ul>
         <li>Java and Spring Boot</li>
@@ -518,7 +518,9 @@ An early project I built as my final-year BCA minor project. The codebase includ
         <li>Cybersecurity concepts</li>
       </ul>
     </td>
-    <td width="25%" valign="top">
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <strong>🧭 EXPLORING</strong>
       <ul>
         <li>Microservices architecture</li>
@@ -530,7 +532,7 @@ An early project I built as my final-year BCA minor project. The codebase includ
         <li>Data engineering pipelines</li>
       </ul>
     </td>
-    <td width="25%" valign="top">
+    <td width="50%" valign="top">
       <strong>➡️ NEXT</strong>
       <ul>
         <li>Production-scale systems</li>
