@@ -9,7 +9,7 @@
   <title id="title">Current learning focus</title>
   <desc id="desc">Five areas of ongoing learning: Java backend, data structures and algorithms, system design, cloud and delivery, and AI and security.</desc>
   <rect x="1" y="1" width="1598" height="398" rx="18" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
-  <text x="48" y="58" fill="#e6edf3" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">Current learning focus</text>
+  <text x="48" y="58" fill="#e6edf3" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">Current learning focus<animate attributeName="fill" values="#e6edf3;#58a6ff;#bc8cff;#e6edf3" dur="6s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 0;0 0" keyTimes="0;.18;1" dur="5s" begin="0s" repeatCount="indefinite"/></text>
   <text x="1552" y="56" text-anchor="end" fill="#8b949e" font-family="Arial, Helvetica, sans-serif" font-size="16">Areas of ongoing learning</text>
   <g font-family="Arial, Helvetica, sans-serif">
     <g transform="translate(40 92)">
@@ -17,7 +17,7 @@
       <rect x="1" y="1" width="286" height="3" rx="2" fill="#58a6ff" class="accent"/>
       <rect x="2" y="1" width="36" height="3" rx="2" fill="#ffffff" opacity=".75" class="glint"><animate attributeName="x" values="2;252" dur="4.2s" repeatCount="indefinite"/></rect>
       <text x="22" y="42" fill="#58a6ff" font-size="15" font-weight="700" letter-spacing="1.4">01  BACKEND</text>
-      <text x="22" y="88" fill="#e6edf3" font-size="22" font-weight="700">Java &amp; Spring</text>
+      <text x="22" y="88" fill="#e6edf3" font-size="22" font-weight="700">Java &amp; Spring<animate attributeName="fill" values="#e6edf3;#58a6ff;#e6edf3" dur="5s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 0;0 0" keyTimes="0;.18;1" dur="5s" begin="0s" repeatCount="indefinite"/></text>
       <text x="22" y="126" fill="#8b949e" font-size="17"><tspan x="22">Building projects with</tspan><tspan x="22" dy="26">Spring Boot and APIs.</tspan></text>
     </g>
     <g transform="translate(352 92)">
@@ -25,7 +25,7 @@
       <rect x="1" y="1" width="286" height="3" rx="2" fill="#39c5cf" class="accent d2"/>
       <rect x="2" y="1" width="36" height="3" rx="2" fill="#ffffff" opacity=".75" class="glint"><animate attributeName="x" values="2;252" dur="4.2s" begin=".6s" repeatCount="indefinite"/></rect>
       <text x="22" y="42" fill="#58a6ff" font-size="15" font-weight="700" letter-spacing="1.4">02  FUNDAMENTALS</text>
-      <text x="22" y="88" fill="#e6edf3" font-size="22" font-weight="700">DSA &amp; problem solving</text>
+      <text x="22" y="88" fill="#e6edf3" font-size="22" font-weight="700">DSA &amp; problem solving<animate attributeName="fill" values="#e6edf3;#39c5cf;#e6edf3" dur="5s" begin=".7s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 0;0 0" keyTimes="0;.18;1" dur="5s" begin=".7s" repeatCount="indefinite"/></text>
       <text x="22" y="126" fill="#8b949e" font-size="17"><tspan x="22">Strengthening algorithms</tspan><tspan x="22" dy="26">and core concepts.</tspan></text>
     </g>
     <g transform="translate(664 92)">
@@ -33,7 +33,7 @@
       <rect x="1" y="1" width="286" height="3" rx="2" fill="#bc8cff" class="accent d3"/>
       <rect x="2" y="1" width="36" height="3" rx="2" fill="#ffffff" opacity=".75" class="glint"><animate attributeName="x" values="2;252" dur="4.2s" begin="1.2s" repeatCount="indefinite"/></rect>
       <text x="22" y="42" fill="#58a6ff" font-size="15" font-weight="700" letter-spacing="1.4">03  ARCHITECTURE</text>
-      <text x="22" y="88" fill="#e6edf3" font-size="22" font-weight="700">System design</text>
+      <text x="22" y="88" fill="#e6edf3" font-size="22" font-weight="700">System design<animate attributeName="fill" values="#e6edf3;#bc8cff;#e6edf3" dur="5s" begin="1.4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 0;0 0" keyTimes="0;.18;1" dur="5s" begin="1.4s" repeatCount="indefinite"/></text>
       <text x="22" y="126" fill="#8b949e" font-size="17"><tspan x="22">Learning scalable and</tspan><tspan x="22" dy="26">distributed systems.</tspan></text>
     </g>
     <g transform="translate(976 92)">
@@ -41,7 +41,7 @@
       <rect x="1" y="1" width="286" height="3" rx="2" fill="#3fb950" class="accent d4"/>
       <rect x="2" y="1" width="36" height="3" rx="2" fill="#ffffff" opacity=".75" class="glint"><animate attributeName="x" values="2;252" dur="4.2s" begin="1.8s" repeatCount="indefinite"/></rect>
       <text x="22" y="42" fill="#58a6ff" font-size="15" font-weight="700" letter-spacing="1.4">04  CLOUD &amp; DELIVERY</text>
-      <text x="22" y="88" fill="#e6edf3" font-size="22" font-weight="700">AWS &amp; CI/CD</text>
+      <text x="22" y="88" fill="#e6edf3" font-size="22" font-weight="700">AWS &amp; CI/CD<animate attributeName="fill" values="#e6edf3;#3fb950;#e6edf3" dur="5s" begin="2.1s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 0;0 0" keyTimes="0;.18;1" dur="5s" begin="2.1s" repeatCount="indefinite"/></text>
       <text x="22" y="126" fill="#8b949e" font-size="17"><tspan x="22">Exploring cloud services,</tspan><tspan x="22" dy="26">DevOps, and pipelines.</tspan></text>
     </g>
     <g transform="translate(1288 92)">
@@ -49,7 +49,7 @@
       <rect x="1" y="1" width="270" height="3" rx="2" fill="#f0883e" class="accent d5"/>
       <rect x="2" y="1" width="36" height="3" rx="2" fill="#ffffff" opacity=".75" class="glint"><animate attributeName="x" values="2;232" dur="4.2s" begin="2.4s" repeatCount="indefinite"/></rect>
       <text x="22" y="42" fill="#58a6ff" font-size="15" font-weight="700" letter-spacing="1.4">05  EXPLORATION</text>
-      <text x="22" y="88" fill="#e6edf3" font-size="22" font-weight="700">AI/ML &amp; security</text>
+      <text x="22" y="88" fill="#e6edf3" font-size="22" font-weight="700">AI/ML &amp; security<animate attributeName="fill" values="#e6edf3;#f0883e;#e6edf3" dur="5s" begin="2.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 0;0 0" keyTimes="0;.18;1" dur="5s" begin="2.8s" repeatCount="indefinite"/></text>
       <text x="22" y="126" fill="#8b949e" font-size="17"><tspan x="22">Studying practical AI</tspan><tspan x="22" dy="26">and cybersecurity.</tspan></text>
     </g>
   </g>

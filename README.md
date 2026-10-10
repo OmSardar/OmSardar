@@ -68,7 +68,7 @@
 <div align="center">
 
 <img
-    src="./assets/about.svg"
+    src="./assets/about.gif"
     width="100%"
     alt="Om Sardar developer profile"
   />
@@ -122,7 +122,7 @@ AuctionX began as my final-year BCA minor project.
 <div align="center">
 
 <img
-    src="./assets/focus.svg"
+    src="./assets/focus.gif"
     width="100%"
     alt="Current development focus"
   />
@@ -134,7 +134,7 @@ AuctionX began as my final-year BCA minor project.
 <div align="center">
 
 <img
-    src="./assets/goals.svg"
+    src="./assets/goals.gif"
     width="100%"
     alt="Om Sardar — Goals and Engineering Vision"
   />
@@ -407,7 +407,7 @@ An early project I built as my final-year BCA minor project. The codebase includ
 
 <div align="center">
   <img
-    src="./assets/system-architecture.svg"
+    src="./assets/system-architecture.gif"
     width="100%"
     alt="Conceptual architecture reference showing a browser client, edge routing, API services, data stores, and cross-cutting engineering concerns"
   />
@@ -465,7 +465,7 @@ An early project I built as my final-year BCA minor project. The codebase includ
 
 <div align="center">
   <img
-    src="./assets/engineering-loop.svg"
+    src="./assets/engineering-loop.gif"
     width="100%"
     alt="Engineering learning loop — Learn, Plan, Build, Test, Ship, and Reflect"
   />
