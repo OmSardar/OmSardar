@@ -327,7 +327,7 @@ An early project I built as my final-year BCA minor project. The codebase includ
     width="49%"
     alt="Repositories Per Language"
   /><img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=OmSardar&theme=github_dark&v=ecdacf3b20c3475b"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=OmSardar&theme=github_dark&v=6783cc82755372c6"
     width="49%"
     alt="Most Used Commit Languages"
   />
