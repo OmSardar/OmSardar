@@ -296,8 +296,8 @@ An early project I built as my final-year BCA minor project. The codebase includ
 <a href="https://auction-x-minor-project-2024.onrender.com/"><strong>OPEN MINOR-PROJECT DEMO ↗</strong></a>
 
 <br/><br/>
-<a href="https://the-auction-x.onrender.com/"><strong>OPEN ENHANCED VERSION ↗</strong></a>
-<br/><sub>The enhanced deployment is a separate build; its source is not public on GitHub yet.</sub>
+<a href="https://auctionx-enhanced.omslabs.tech/"><strong>OPEN ENHANCED VERSION ↗</strong></a>
+
 
 </td>
 </tr>
