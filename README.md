@@ -246,6 +246,38 @@
 <tr>
 <td valign="top">
 
+<!-- ENHANCED AUCTIONX PROJECT -->
+
+<h3>AuctionX · AI-Powered Real-Time Auction Platform</h3>
+
+A full-stack auction platform featuring real-time bidding, wallet-backed transactions, automated auction settlement, secure authentication, and AI-powered product recommendations. Built with a decoupled backend architecture and a dedicated recommendation microservice.
+
+<strong>Key Features:</strong> Real-time bidding with Socket.IO, wallet balance and bid reservations, automated winner settlement, Razorpay wallet top-ups, Google OAuth, email verification, and AI-powered recommendations.
+
+<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white"/>
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
+<img src="https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socket.io&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+<img src="https://img.shields.io/badge/Resend-000000?style=flat-square&logo=resend&logoColor=white"/>
+
+<br/><br/>
+
+<a href="https://github.com/OmSardar/AuctionX-Enhanced-Live-AI-Auction-Platform"><strong>VIEW SOURCE CODE ↗</strong></a>
+&nbsp; · &nbsp;
+<a href="https://auctionx-enhanced.omslabs.tech/"><strong>OPEN LIVE PRODUCTION DEMO ↗</strong></a>
+
+<br/><br/>
+
+<a href="https://auction-x-enhanced-live-ai-auction.vercel.app/"><strong>OPEN ALTERNATIVE VERCEL DEPLOYMENT ↗</strong></a>
+
+<br/><br/>
+<hr/>
+
+<!-- ORIGINAL MINOR PROJECT — PRESERVED -->
+
 <h3>AuctionX · MERN Auction Application</h3>
 
 An early project I built as my final-year BCA minor project. The codebase includes auction listings and bidding interfaces, account flows, and seller and admin screens.
