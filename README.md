@@ -355,11 +355,11 @@ An early project I built as my final-year BCA minor project. The codebase includ
 
 <p align="center">
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=OmSardar&theme=github_dark&v=25174e75639474dd"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=OmSardar&theme=github_dark&v=70486abcd40b41ba"
     width="49%"
     alt="Repositories Per Language"
   /><img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=OmSardar&theme=github_dark&v=6783cc82755372c6"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=OmSardar&theme=github_dark&v=1eadaadd141e69d3"
     width="49%"
     alt="Most Used Commit Languages"
   />
